@@ -5,7 +5,7 @@ Practicing OpenCV, to avoid getting rusty, using the free-online course given by
 ### No. 1 -  Face Recognition
 Perform fast, accurate face detection with OpenCV using a pre-trained deep learning face detector model shipped with the library.
 
-![face_recognition_on_video](../master/01.\ Face\ Recognition/face_recognition.PNG)
+![face_recognition_on_video](https://raw.githubusercontent.com/alexisleveratto/OpenCV_Problems/01.\ Face\ Recognition/face_recognition.PNG)
 
 ### No. 2 -  OpenCV Guide
 Learning OpenCV isn’t as hard as it used to be. And in fact, I’ll go as far as to say studying OpenCV has become significantly easier.
