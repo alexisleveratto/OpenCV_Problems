@@ -13,3 +13,15 @@ Building a document scanner with OpenCV can be accomplished in just three simple
 1. Detect edges.
 2. Use the edges in the image to find the contour (outline) representing the piece of paper being scanned.
 3. Apply a perspective transform to obtain the top-down view of the document.
+
+### No. 4 -  Multiple Choice Exam Scanner
+Build a bubble sheet scanner and test grader using Python and OpenCV.
+1. Detect the exam in an image.
+2. Apply a perspective transform to extract the top-down, birds-eye-view of the exam.
+3. Extract the set of bubbles (i.e., the possible answer choices) from the perspective transformed exam.
+4. Sort the questions/bubbles into rows.
+5. Determine the marked (i.e., “bubbled in”) answer for each row.
+6. Determine if the mark was done once in the same question
+7. Detemine if the answer was done.
+8. Lookup the correct answer in our answer key to determine if the user was correct in their choice.
+9. Repeat for all questions in the exam
