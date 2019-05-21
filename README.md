@@ -7,22 +7,22 @@ Perform fast, accurate face detection with OpenCV using a pre-trained deep learn
 
 - For video:
 
-<code>python detect_faces_video.py -p deploy.prototxt.txt -m res10_300x300_ssd_iter_140000.caffemodel</code>
+`python detect_faces_video.py -p deploy.prototxt.txt -m res10_300x300_ssd_iter_140000.caffemodel`
 
 - For images:
 
-<code>python face_detection_w_OpenCV.py -i sample_0.jpg -p deploy.prototxt.txt -m res10_300x300_ssd_iter_140000.caffemodel</code>
+`python face_detection_w_OpenCV.py -i sample_0.jpg -p deploy.prototxt.txt -m res10_300x300_ssd_iter_140000.caffemodel`
 
 ### No. 2 -  OpenCV Guide
 Learning OpenCV isn’t as hard as it used to be. And in fact, I’ll go as far as to say studying OpenCV has become significantly easier.
 
 - Basic Image Manipulation:
 
-<code>python opencv_01.py -i jp.png</code>
+`python opencv_01.py -i jp.png`
 
 - Basic Color Image Manipulation:
 
-<code>python opencv_02.py -i tetris_blocks.png</code>
+`python opencv_02.py -i tetris_blocks.png`
 
 
 ### No. 3 -  Scan a Document
@@ -33,7 +33,7 @@ Building a document scanner with OpenCV can be accomplished in just three simple
 
 - Try it:
 
-<code>python scanner.py -i final-bill.jpg</code>
+`python scanner.py -i final-bill.jpg`
 
 ### No. 4 -  Multiple Choice Exam Scanner
 Build a bubble sheet scanner and test grader using Python and OpenCV.
@@ -50,7 +50,7 @@ Build a bubble sheet scanner and test grader using Python and OpenCV.
 - Try it:
 Change the correct answers in the exam on **Line 17**, to see how it works.
 
-<code>python test_grader.py -i omr_test_01.png</code>
+`python test_grader.py -i omr_test_01.png`
 
 ### No. 5 -  Object Tracking by Segmentation
 The goal here is:
@@ -59,4 +59,5 @@ The goal here is:
 
 - Try it
 Change color range on **Lines 19 and 20**, to see how it works.
-<code>python object_tracking.py</code>
+
+`python object_tracking.py`
