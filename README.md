@@ -21,7 +21,12 @@ Build a bubble sheet scanner and test grader using Python and OpenCV.
 3. Extract the set of bubbles (i.e., the possible answer choices) from the perspective transformed exam.
 4. Sort the questions/bubbles into rows.
 5. Determine the marked (i.e., “bubbled in”) answer for each row.
-6. Determine if the mark was done once in the same question
+6. Determine if the mark was done once in the same question.
 7. Detemine if the answer was done.
 8. Lookup the correct answer in our answer key to determine if the user was correct in their choice.
-9. Repeat for all questions in the exam
+9. Repeat for all questions in the exam.
+
+### No. 4 -  Object Tracking by Segmentation
+The goal here is:
+1. Detect the presence of a colored ball using computer vision techniques.
+2. Track the ball as it moves around in the video frames, drawing its previous positions as it moves.
