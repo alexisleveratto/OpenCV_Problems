@@ -45,7 +45,7 @@ for c in cnts:
     # approximate the contour
     peri = cv2.arcLength(c, True)
     approx = cv2.approxPolyDP(c, 0.02*peri, True)
-	
+    screenCnt = None
     # if our approximated contour has four points, then we
 	# can assume that we have found our screen
     if len(approx) == 4:
