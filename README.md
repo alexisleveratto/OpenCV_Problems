@@ -17,13 +17,8 @@ Perform fast, accurate face detection with OpenCV using a pre-trained deep learn
 Learning OpenCV isn’t as hard as it used to be. And in fact, I’ll go as far as to say studying OpenCV has become significantly easier.
 
 - Run it:
-    - Basic Image Manipulation:
-
-`python opencv_01.py -i jp.png`
-- 
-    - Basic Color Image Manipulation:
-
-`python opencv_02.py -i tetris_blocks.png`
+    - Basic Image Manipulation: `python opencv_01.py -i jp.png`
+    - Basic Color Image Manipulation: `python opencv_02.py -i tetris_blocks.png`
 
 
 ### No. 03 -  Scan a Document
