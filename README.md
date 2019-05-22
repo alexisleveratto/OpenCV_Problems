@@ -5,11 +5,11 @@ Practicing OpenCV, to avoid getting rusty, using the free-online course given by
 ### No. 01 -  Face Recognition
 Perform fast, accurate face detection with OpenCV using a pre-trained deep learning face detector model shipped with the library.
 - Run it:
-* For video:
+    - For video:
 
 `python detect_faces_video.py -p deploy.prototxt.txt -m res10_300x300_ssd_iter_140000.caffemodel`
 
-* For images:
+    - For images:
 
 `python face_detection_w_OpenCV.py -i sample_0.jpg -p deploy.prototxt.txt -m res10_300x300_ssd_iter_140000.caffemodel`
 
@@ -17,11 +17,11 @@ Perform fast, accurate face detection with OpenCV using a pre-trained deep learn
 Learning OpenCV isn’t as hard as it used to be. And in fact, I’ll go as far as to say studying OpenCV has become significantly easier.
 
 - Run it:
-* Basic Image Manipulation:
+    - Basic Image Manipulation:
 
 `python opencv_01.py -i jp.png`
 
-* Basic Color Image Manipulation:
+    - Basic Color Image Manipulation:
 
 `python opencv_02.py -i tetris_blocks.png`
 
@@ -49,7 +49,7 @@ Build a bubble sheet scanner and test grader using Python and OpenCV.
 9. Repeat for all questions in the exam.
 
 - Run it:
-Change the correct answers in the exam on **Line 17**, to see how it works.
+    Change the correct answers in the exam on **Line 17**, to see how it works.
 
 `python test_grader.py -i omr_test_01.png`
 
@@ -59,7 +59,7 @@ The goal here is:
 2. Track the ball as it moves around in the video frames, drawing its previous positions as it moves.
 
 - Run it:
-Change color range on **Lines 19 and 20**, to see how it works.
+    Change color range on **Lines 19 and 20**, to see how it works.
 
 `python object_tracking.py`
 
