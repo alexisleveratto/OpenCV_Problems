@@ -20,7 +20,7 @@ Learning OpenCV isn’t as hard as it used to be. And in fact, I’ll go as far 
     - Basic Image Manipulation:
 
 `python opencv_01.py -i jp.png`
-
+- 
     - Basic Color Image Manipulation:
 
 `python opencv_02.py -i tetris_blocks.png`
@@ -68,9 +68,9 @@ We need to determine our “pixels per metric” ratio, which describes the numb
 
 To compute this ratio, we need a reference object with some properties:
 
-* Property #1: The reference object should have known dimensions (such as width or height) in terms of a measurable unit (inches, millimeters, etc.).
-* Property #2: The reference object should be easy to find, either in terms of location of the object or in its appearance.
-* Property #3: All of the objects to be measured be co-planar with the reference object. 
+**Property #1:** The reference object should have known dimensions (such as width or height) in terms of a measurable unit (inches, millimeters, etc.).
+**Property #2:** The reference object should be easy to find, either in terms of location of the object or in its appearance.
+**Property #3:** All of the objects to be measured be co-planar with the reference object. 
 
 - Run it:
 
