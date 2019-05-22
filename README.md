@@ -52,7 +52,9 @@ We need to determine our “pixels per metric” ratio, which describes the numb
 To compute this ratio, we need a reference object with some properties:
 
 **Property #1:** The reference object should have known dimensions (such as width or height) in terms of a measurable unit (inches, millimeters, etc.).
+
 **Property #2:** The reference object should be easy to find, either in terms of location of the object or in its appearance.
+
 **Property #3:** All of the objects to be measured be co-planar with the reference object. 
 
 - Run it: `python .\object_size.py -i .\example_03.png -w 3.5`
