@@ -58,3 +58,22 @@ To compute this ratio, we need a reference object with some properties:
 **Property #3:** All of the objects to be measured be co-planar with the reference object. 
 
 - Run it: `python .\object_size.py -i .\example_03.png -w 3.5`
+
+### No. 07 - Parkinson Detection with OpenCV
+Reducing the requirement of tracking pen speed and pressure:
+1. Eliminates the need for additional hardware when performing the test.
+2. Makes it far easier to automatically detect Parkinson’s.
+
+- Run it: `python detect_parkinsons.py --dataset dataset/spiral`
+
+### No. 08 - Find Facial Landmarks
+Facial landmarks are used to localize and represent salient regions of the face, such as:
+* Eyes
+* Eyebrows
+* Nose
+* Mouth
+* Jawline
+
+More info [here](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
+
+- Run it: `python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image  img_1.jpg`
