@@ -21,7 +21,6 @@ time.sleep(2.0)
 
 while True:
     frame = vs.read()
-
     image = imutils.resize(frame, width=500)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -33,15 +32,15 @@ while True:
         (x, y, w, h) = face_utils.rect_to_bb(rect)
         cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
         for (x, y) in shape:
-                cv2.circle(image, (x, y), 1, (0, 0, 255), -1)
+            cv2.circle(image, (x, y), 1, (0, 0, 255), -1)
 
     # show the output frame
-    cv2.imshow("Frame", frame)
+    cv2.imshow("Frame", image)
     key = cv2.waitKey(1) & 0xFF
  
 	# if the `q` key was pressed, break from the loop
     if key == ord("q"):
-		break
+        break
  
 # do a bit of cleanup
 cv2.destroyAllWindows()
