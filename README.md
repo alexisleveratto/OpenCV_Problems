@@ -77,3 +77,13 @@ Facial landmarks are used to localize and represent salient regions of the face,
 More info [here](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
 
 - Run it: `python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image  img_1.jpg`
+
+### No. 09 - Eye Blink Detection
+
+To build our blink detector, we’ll be computing a metric called the eye aspect ratio (EAR), introduced by Soukupová and Čech in their 2016 paper, [Real-Time Eye Blink Detection Using Facial Landmarks](http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf).
+
+The eye aspect ratio is approximately constant while the eye is open, but will rapidly fall to zero when a blink is taking place.
+
+We can avoid image processing techniques and simply rely on the ratio of eye landmark distances to determine if a person is blinking.
+
+### No. 13 - Find Facial Landmarks
