@@ -76,7 +76,7 @@ Facial landmarks are used to localize and represent salient regions of the face,
 
 More info [here](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
 
-- Run it: `python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image  img_1.jpg`
+- Run it: `python facial_landmarks.py -p shape_predictor_68_face_landmarks.dat --image  img_1.jpg`
 
 ### No. 09 - Eye Blink Detection
 
@@ -86,6 +86,8 @@ The eye aspect ratio is approximately constant while the eye is open, but will r
 
 We can avoid image processing techniques and simply rely on the ratio of eye landmark distances to determine if a person is blinking.
 
+- Run it: `python detect_blinks.py -p shape_predictor_68_face_landmarks.dat`
+
 ### No. 10 - Drowsiness detection with OpenCV
 The general flow of our drowsiness detection algorithm is fairly straightforward.
 
@@ -94,3 +96,5 @@ The general flow of our drowsiness detection algorithm is fairly straightforward
 2. Now that we have the eye regions, we compute the eye aspect ratio to determine if the eyes are closed.
 
 3. If the aspect ratio indicates that the eyes have been closed for a sufficiently long enough amount of time, we'll sound an alarm to wake up the driver.
+
+- Run it: `python detect_drowsiness.py -p shape_predictor_68_face_landmarks.dat`
