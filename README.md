@@ -98,3 +98,12 @@ The general flow of our drowsiness detection algorithm is fairly straightforward
 3. If the aspect ratio indicates that the eyes have been closed for a sufficiently long enough amount of time, we'll sound an alarm to wake up the driver.
 
 - Run it: `python detect_drowsiness.py -p shape_predictor_68_face_landmarks.dat`
+
+### No. 11 - A simple neural network with Python and Keras
+Writing some Python code to define our feedforward neural network and specifically apply it to the Kaggle Dogs vs. Cats classification challenge. The goal of this challenge is to correctly classify whether a given image contains a dog or a cat.
+
+Classifying images using neural networks with Python and Keras
+- Run it: `python simple_neural_network.py --dataset kaggle_dogs_vs_cats --model output/simple_neural_network.hdf5`
+
+Classifying images using our Keras model
+- Run it: `python test_network.py --model output/simple_neural_network.hdf5 --test-images test_images`
